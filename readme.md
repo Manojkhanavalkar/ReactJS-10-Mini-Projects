@@ -1,156 +1,134 @@
 # ReactJS 10 Mini Projects
 
-> **Repository:** Manojkhanavalkar / ReactJS-10-Mini-Projects
->
-> A curated collection of small React projects built to practice core React concepts — components, props, state, hooks, context, routing, local storage and styling with Tailwind/CSS. Each project lives in its own folder so you can run them independently.
+A curated set of React mini‑projects to practice core concepts like components, props, state, hooks, context, routing, and styling. Each folder is a standalone project with its own `package.json` (where applicable).
+
+## Projects Overview
+
+### 01basicreact — Basic React Starter
+A minimal Create React App starter to practice component structure and project setup.
+
+**Screenshot placeholder:**
+
+![01basicreact Screenshot](./screenshots/01basicreact.png)
 
 ---
 
-## 🚀 Quick overview
+### 01basicvite — React + Vite Starter
+A minimal React + Vite starter focused on fast dev server and modern tooling.
 
-This repo contains the following mini-projects (folder names preserved):
+**Screenshot placeholder:**
 
-1. `01basicreact` — A minimal/basic React app (starter project).
-2. `01basicvite` — Starter app using Vite.
-3. `02counter` — Simple counter demonstrating state and event handling.
-4. `03tailwindprops` — Examples of Tailwind utility usage & passing props to components.
-5. `04bgChanger` — Background/theme/color changer demonstrating DOM/styles update.
-6. `05passwordgenerator` — Password generator (string manipulation, UI controls).
-7. `06currencyconverter` — Currency converter UI (basic calculations & inputs).
-8. `07reactrouter` — Small app showcasing React Router (multiple pages/views).
-9. `08minicontext` — Demo of React Context for state sharing across components.
-10. `09themeswitcher` — Theme switcher (light/dark) using state and local storage.
-11. `10todocontextlocal` — Todo app with Context + localStorage persistence.
-12. `customReact` — A folder for custom/react experiments (utilities or small library work).
-
-> The folder list above is taken from your repository file listing. citeturn0view0
+![01basicvite Screenshot](./screenshots/01basicvite.png)
 
 ---
 
-## 📌 What recruiters should notice
+### 02counter — Counter App
+A simple counter showcasing `useState` and event handling.
 
-* **Hands‑on with core React features:** components, props, state, event handling.
-* **Modern toolchain experience:** Vite starter included.
-* **State management practice:** Context API and local storage in the todo app.
-* **Routing:** Small multi‑page demo using React Router.
-* **Styling:** Tailwind CSS examples and CSS-based projects.
-* **Small, focused projects:** each folder focuses on one concept — ideal for interview demos.
+**Screenshot placeholder:**
+
+![02counter Screenshot](./screenshots/02counter.png)
 
 ---
 
-## 🧾 How to run any project (general instructions)
+### 03tailwindprops — Tailwind + Props Demo
+Demonstrates passing props and styling components with Tailwind CSS.
 
-Most projects follow the same pattern. From the repository root, open a terminal and run:
+**Screenshot placeholder:**
 
-```bash
-# pick a project folder, for example:
-cd 02counter
-
-# install
-npm install
-
-# start the dev server (try either of these, depending on the project):
-npm run dev        # for Vite-based projects
-# or
-npm start          # for CRA-style projects
-```
-
-If `npm run dev` fails, try `npm start`. If there is no `package.json` inside a folder, open the folder to inspect how the project is structured (some folders may be plain HTML/CSS/JS demos).
+![03tailwindprops Screenshot](./screenshots/03tailwindprops.png)
 
 ---
 
-## 🧩 Project details (copy this block under each project to add screenshots & details)
+### 04bgChanger — Background Changer
+Changes background color/theme using state and UI controls.
 
-### `02counter` — Counter App
+**Screenshot placeholder:**
 
-**What it demonstrates:** `useState`, event handlers, component structure.
-
-**How to run:**
-
-```bash
-cd 02counter
-npm install
-npm run dev
-```
-
-**Screenshot:**
-
-![Screenshot - 02counter](./screenshots/02counter.png)
-
-**Notes / Key files:**
-
-* `src/App.jsx` — main app
-* `src/components/Counter.jsx` — counter component
+![04bgChanger Screenshot](./screenshots/04bgChanger.png)
 
 ---
 
-> Repeat the block above for each project, replacing the folder name, description, run command and screenshot path.
+### 05passwordgenerator — Password Generator
+Generates secure passwords based on selected options (length, symbols, etc.).
 
-## 📸 Screenshots
+**Screenshot placeholder:**
 
-Create a `screenshots/` folder in the repo root and add one image per project using this naming convention:
-
-```
-screenshots/02counter.png
-screenshots/05passwordgenerator.png
-...etc
-```
-
-Then make sure the screenshot links in this README point to those files.
+![05passwordgenerator Screenshot](./screenshots/05passwordgenerator.png)
 
 ---
 
-## 🛠 Tech & tools used
+### 06currencyconverter — Currency Converter
+Converts between currencies using inputs and conversion logic.
 
-* React (functional components + hooks)
-* Vite / npm
-* React Router
-* Tailwind CSS (where applicable)
-* LocalStorage API
+**Screenshot placeholder:**
 
+![06currencyconverter Screenshot](./screenshots/06currencyconverter.png)
 
 ---
 
+### 07reactrouter — React Router Demo
+A multi‑page demo using React Router for client‑side navigation.
 
+**Screenshot placeholder:**
 
-````
-# ReactJS 10 Mini Projects
+![07reactrouter Screenshot](./screenshots/07reactrouter.png)
 
-A curated collection of small React projects built to practice core React concepts — components, props, state, hooks, context, routing, local storage and styling with Tailwind/CSS.
+---
 
-## Projects
+### 08minicontext — Context API Demo
+Shows state sharing across components using React Context.
 
-- `01basicreact` — Starter React app
-- `01basicvite` — Vite starter
-- `02counter` — Counter app (useState)
-- `03tailwindprops` — Tailwind + Props examples
-- `04bgChanger` — Background / theme changer
-- `05passwordgenerator` — Password generator
-- `06currencyconverter` — Currency converter UI
-- `07reactrouter` — React Router demo
-- `08minicontext` — Context API demo
-- `09themeswitcher` — Theme switcher with localStorage
-- `10todocontextlocal` — Todo app with Context + persistence
-- `customReact` — custom/react experiments
+**Screenshot placeholder:**
 
-## How to run
+![08minicontext Screenshot](./screenshots/08minicontext.png)
 
-For each project:
+---
+
+### 09themeswitcher — Theme Switcher
+Light/dark theme switching with state (and optional local storage).
+
+**Screenshot placeholder:**
+
+![09themeswitcher Screenshot](./screenshots/09themeswitcher.png)
+
+---
+
+### 10todocontextlocal — Todo App with Context + Local Storage
+A todo list that uses Context API and persists data in local storage.
+
+**Screenshot placeholder:**
+
+![10todocontextlocal Screenshot](./screenshots/10todocontextlocal.png)
+
+---
+
+### customReact — Custom React Experiments
+Sandbox for experimenting with React concepts and utilities.
+
+**Screenshot placeholder:**
+
+![customReact Screenshot](./screenshots/customReact.png)
+
+---
+
+## How to Run Any Project
+From the repository root:
 
 ```bash
 cd <project-folder>
 npm install
-npm run dev  # or npm start
-````
+npm run dev   # or npm start (depending on the project)
+```
+
+If a project doesn’t use Vite or CRA, open the folder and follow its specific structure.
 
 ## Screenshots
+Create a `screenshots/` folder in the repository root and add images matching the names used above.
 
-Add screenshots to `screenshots/` and reference them like:
+Example:
 
-`![02counter](./screenshots/02counter.png)`
-
-## Contact
-
-[Manoj Khanavalkar](mailto:khanavalkarmanoj@gmail.com) • [LinkedIn]((https://www.linkedin.com/in/manoj-khanavalkar-08a09b201/)) 
-
-
+```
+screenshots/02counter.png
+screenshots/05passwordgenerator.png
+```
