@@ -170,14 +170,3 @@ npm install
 npm run dev   # or npm start (depending on the project)
 ```
 
-If a project doesn’t use Vite or CRA, open the folder and follow its specific structure.
-
-## Screenshots
-Create a `screenshots/` folder in the repository root and add images matching the names used above.
-
-Example:
-
-```
-screenshots/02counter.png
-screenshots/05passwordgenerator.png
-```
